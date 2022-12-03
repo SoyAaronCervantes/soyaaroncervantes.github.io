@@ -1,0 +1,21 @@
+.user {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  inline-size: 30vw;
+  margin: auto;
+}
+
+
+@media screen and (max-device-width: 70rem) {
+  .user {
+    inline-size: 22rem;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (max-device-width: 30rem) {
+  .user {
+    inline-size: 90%;
+  }
+}

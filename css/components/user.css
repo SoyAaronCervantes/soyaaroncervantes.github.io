@@ -1,0 +1,57 @@
+.user {
+  overflow: clip;
+}
+
+.user--imagen,
+.user--data {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.user--data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: end;
+  padding: 1.5vw;
+  gap: 1.5vw;
+}
+
+.user--personal {
+  display: flex;
+  flex-direction: column;
+  gap: .5vw;
+}
+
+.user--social--item {
+  inline-size: 2rem;
+}
+
+.user--social--image {
+  inline-size: 100%;
+}
+
+.user--imagen {
+  inline-size: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-device-width: 70rem) {
+  .user--data {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-device-width: 30rem) {
+  .user--social--image {
+    inline-size: 5vw;
+  }
+
+  .user--data {
+    padding: 2vw;
+    gap: 1.5vw;
+  }
+
+}

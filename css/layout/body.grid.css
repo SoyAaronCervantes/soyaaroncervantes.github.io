@@ -1,0 +1,6 @@
+.body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2vw;
+  position: relative;
+}

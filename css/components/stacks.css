@@ -1,0 +1,49 @@
+.stack {
+  display: grid;
+  grid-template-areas: "stack";
+  width: 15rem;
+  height: fit-content;
+}
+
+.stack--img {
+  border-radius: 0.2rem;
+}
+
+.stack > img {
+  width: 100%;
+  grid-area: stack;
+  aspect-ratio: 1;
+  object-fit: cover;
+
+  box-shadow: 0 0 0.5rem rgb(0 0 0 /.2);
+
+  border: solid 0.5rem white;
+  border-bottom: solid 2rem white;
+  border-radius: 0.5rem;
+
+  transition: transform 200ms;
+}
+
+.stack > img:nth-child(1) {
+  transform: rotate(5deg) translateX(1.25rem) translateY(-1.25rem);
+}
+
+.stack > img:nth-child(2) {
+  transform: rotate(-10deg) translateX(-1.25rem);
+}
+
+.stack > img:nth-child(3) {
+  transform: rotate(0deg);
+}
+
+.stack:hover > img:nth-child(1) {
+  transform: rotate(10deg) translateX(2.5rem) translateY(-2.5rem);
+}
+
+.stack:hover > img:nth-child(2) {
+  transform: rotate(-20deg) translateX(-3.75rem);
+}
+
+.stack:hover > img:nth-child(3) {
+  transform: rotate(0deg);
+}

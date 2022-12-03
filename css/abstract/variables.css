@@ -1,0 +1,18 @@
+:root {
+  --card-img-1: url('./../../img/comedy.jpg');
+  --card-img-2: url('./../../img/rave.jpg');
+  --card-img-3: url('./../../img/sneakers.jpg');
+  --card-img-4: url('./../../img/concerts.jpg');
+  --card-img-5: url('./../../img/trips.jpg');
+  --card-img-6: url('./../../img/img-1.jpg');
+  --card-img-7: url('./../../img/img-2.jpg');
+  --card-img-8: url('./../../img/img-3.jpg');
+  --card-img-9: url('../../img/img-4.jpg');
+  --card-img-10: url('../../img/img-5.jpg');
+  --card-img-11: url('../../img/img-6.jpg');
+  --card-img-12: url('./../../img/img-7.jpg');
+  --card-img-13: url('../../img/img-8.jpg');
+  --card-img-14: url('../../img/img-9.jpg');
+  --card-img-15: url('./../../img/img-10.jpg');
+  --card--hobbies--background-color: #0e0e0e91;
+}
