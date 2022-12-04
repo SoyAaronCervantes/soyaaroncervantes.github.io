@@ -1,0 +1,42 @@
+.profile-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.profile-img {
+  width: 25rem;
+  height: fit-content;
+  scale: 1.5;
+  filter: blur(.1rem) saturate(.6);
+  transition: all 200ms ease-in-out;
+  image-rendering: pixelated;
+}
+
+.profile-img-container {
+  border-radius: 3rem;
+  overflow: clip;
+}
+
+.profile-container:hover .profile-img {
+  filter: blur(0) saturate(1);
+  scale: 1;
+}
+
+.profile-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-inline: 2rem;
+}
+
+.profile-name,
+.profile-description{
+  margin: 0;
+}
+
+.profile-name {
+  align-self: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.header,
+.social-networks,
+.social-networks-container,
+.social-networks-list,
+.social-networks-item-anchor,
+.social-networks-item{
+  display: flex;
+  align-items: center;
+}
+
+.social-networks-item-anchor {
+ gap: 1rem;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.social-networks,
+.social-networks-container{
+  gap: 2rem;
+}
+
+.social-networks-list {
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-networks-img {
+  width: 2rem;
+  height: fit-content;
+}
+
+

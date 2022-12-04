@@ -1,0 +1,16 @@
+@import url("./variables/body.css");
+
+@import url("./layout/body-layout.css");
+@import url("./layout/profile-layout.css");
+
+@import url("./components/body.css");
+@import url("./components/main.css");
+@import url("./components/header.css");
+@import url("./components/footer.css");
+
+@import url("./components/profile.css");
+@import url("./typography/headers.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
