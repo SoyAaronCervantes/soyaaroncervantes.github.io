@@ -1,0 +1,23 @@
+.story {
+  align-self: center;
+  max-width: 40rem;
+}
+
+.story--me,
+.story--knowledge {
+  row-gap: 1vw;
+  flex-direction: column;
+}
+
+@media screen and (max-device-width: 74rem) {
+  .story {
+    max-width: 100%;
+    gap: 2rem;
+  }
+
+  .story--me,
+  .story--knowledge {
+    row-gap: 1rem;
+  }
+
+}

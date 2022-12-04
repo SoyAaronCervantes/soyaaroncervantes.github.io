@@ -1,0 +1,17 @@
+.material-symbols {
+  font-size: 2rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+@media screen and (max-device-width: 30rem) {
+  .material-symbols {
+    font-size: 5vw;
+  }
+}
