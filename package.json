@@ -1,7 +1,13 @@
 {
   "name": "portfolio",
+  "author": {
+    "email": "soyaaroncervantes@gmail.com",
+    "name": "Aaron Cervantes",
+    "url": "soyaaroncervantes.github.io"
+  },
+  "description": "This project is a portfolio of my work.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
