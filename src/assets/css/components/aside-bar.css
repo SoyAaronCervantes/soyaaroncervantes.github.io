@@ -1,4 +1,4 @@
-.sidebar {
+.aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,12 +7,10 @@
   position: sticky;
   top: 0;
   height: 100vh;
-  width: fit-content;
 }
 
-.sidebar--item {
+.aside--item {
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  width: fit-content;
 }
