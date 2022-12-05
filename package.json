@@ -7,7 +7,7 @@
   },
   "description": "This project is a portfolio of my work.",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "homepage": "https://soyaaroncervantes.github.io/",
   "scripts": {
