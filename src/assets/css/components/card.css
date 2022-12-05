@@ -1,82 +1,43 @@
 .card {
-  justify-content: end;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  border-radius: 2rem;
+  overflow: clip;
 }
 
-.card-cover {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 0;
-  padding: 0;
-  aspect-ratio: 8 / 7;
-  width: 100%;
+.card--image,
+.card--body {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.card--image {
+  object-fit: cover;
+  object-position: center;
   height: 100%;
-}
-
-.card-cover--img-1 {
-  background-image: var(--card-img-1);
-}
-
-.card-cover--img-2 {
-  background-image: var(--card-img-2);
-}
-
-.card-cover--img-3 {
-  background-image: var(--card-img-3);
-}
-
-.card-cover--img-4 {
-  background-image: var(--card-img-4);
-}
-
-.card-cover--img-5 {
-  background-image: var(--card-img-5);
-}
-
-.card-cover--img-6 {
-  background-image: var(--card-img-6);
-}
-
-.card-cover--img-7 {
-  background-image: var(--card-img-7);
-}
-
-.card-cover--img-8 {
-  background-image: var(--card-img-8);
-}
-
-.card-cover--img-9 {
-  background-image: var(--card-img-9);
-}
-
-.card-cover--img-10 {
-  background-image: var(--card-img-10);
-}
-
-.card-cover--img-11 {
-  background-image: var(--card-img-11);
-}
-
-.card-cover--img-12 {
-  background-image: var(--card-img-12);
-}
-
-.card-cover--img-13 {
-  background-image: var(--card-img-13);
-}
-
-.card-cover--img-14 {
-  background-image: var(--card-img-14);
-}
-
-.card-cover--img-15 {
-  background-image: var(--card-img-15);
-}
-
-.card--hobbies {
-  background-color: var(--card--hobbies--background-color);
-}
-
-.card--hobbies--header {
   width: 100%;
+  aspect-ratio: 1/2;
+}
+
+.card--body {
+  display: flex;
+  justify-content: space-around;
+  align-self: end;
+  background-color: rgba(0, 0, 0, .4);
+  color: #f3f3f3;
+  padding: 1rem;
+}
+
+.card--icon {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+}
+
+.card--location,
+.card--date {
+  display: flex;
+  align-items: center;
 }
