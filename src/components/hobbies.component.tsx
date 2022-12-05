@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Hobbies} from "../interfaces/hobbies.interfaces";
+import {CardComponent} from "./card.component";
 
 export function HobbiesComponent() {
 
@@ -42,8 +43,8 @@ export function HobbiesComponent() {
     },
     {
       imgSrc: 'img/grid/img-23.jpg',
-      year: 2022,
-      place: 'Guanajuato',
+      year: 2021,
+      place: 'La Marquesa',
       size: {
         col: 1,
         row: 2
@@ -262,47 +263,9 @@ export function HobbiesComponent() {
     <section className="[ hobbies ]">
       <h2 className="[ display-medium ]">Adventures, hobbies & friends</h2>
       <div className="[ hobbies--grid ]">
-        { hobbies.map( (value, index) => {
-          return (
-            <div
-              key={index.toString()}
-              className={
-                "[ card ]" +
-                " [ grid--row--" + value.size.row + " ] " +
-                " [ grid--column--" + value.size.col + " ] "
-              }>
-              <img
-                src={ value.imgSrc }
-                alt=""
-                className="[ card--image ]"
-                loading="lazy"/>
-              <div className="[ card--body ]">
-                <div className="[ card--location ]">
-              <span
-                className="
-              [ material-symbols material-symbols-outlined ]
-              [ card--location-icon ]">
-              location_on
-            </span>
-                  <p className="[ card--location-name ]">
-                    { value.place }
-                  </p>
-                </div>
-                <div className="[ card--date ]">
-                  <p
-                    className="
-              [ material-symbols material-symbols-outlined ]
-              [ card--location-icon ]">
-                    event
-                  </p>
-                  <small className="[ card--location-name ]">
-                    { value.year }
-                  </small>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+        { hobbies.map( (value, index) =>
+          <CardComponent hobby={ value } index={ index } />
+        )}
       </div>
     </section>
   );
