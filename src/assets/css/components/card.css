@@ -1,9 +1,10 @@
 .card {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr;
   border-radius: 2rem;
   overflow: clip;
+  height: 100%;
 }
 
 .card--image,
@@ -17,7 +18,7 @@
   object-position: center;
   height: 100%;
   width: 100%;
-  aspect-ratio: 1/2;
+  aspect-ratio: 1;
 }
 
 .card--body {
