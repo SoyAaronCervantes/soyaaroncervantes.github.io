@@ -47,7 +47,7 @@ export function HobbiesComponent() {
       place: 'La Marquesa',
       size: {
         col: 1,
-        row: 2
+        row: 1
       }
     },
     {
@@ -55,8 +55,8 @@ export function HobbiesComponent() {
       year: 2021,
       place: 'Yuyu club',
       size: {
-        col:2,
-        row:1
+        col:1,
+        row:2
       }
     },
     {
@@ -64,7 +64,7 @@ export function HobbiesComponent() {
       year: 2021,
       place: 'Ciento39 club',
       size: {
-        col: 2,
+        col: 1,
         row: 1
       }
     },
@@ -100,7 +100,7 @@ export function HobbiesComponent() {
       year: 2022,
       place: 'Sneakers',
       size: {
-        col: 2,
+        col: 1,
         row: 1
       }
     },
@@ -118,7 +118,7 @@ export function HobbiesComponent() {
       year: 2022,
       place: 'Mr Taco',
       size: {
-        col: 2,
+        col: 1,
         row: 1
       }
     },
@@ -145,7 +145,7 @@ export function HobbiesComponent() {
       year: 2019,
       place: 'Art Gallery',
       size: {
-        col: 2,
+        col: 1,
         row: 1
       }
     },
@@ -168,11 +168,20 @@ export function HobbiesComponent() {
       }
     },
     {
+      imgSrc: 'img/grid/img-20.jpg',
+      year: 2022,
+      place: 'Guanajuato vineyard',
+      size: {
+        col: 1,
+        row: 2
+      }
+    },
+    {
       imgSrc: 'img/grid/img-17.jpg',
       year: 2022,
       place: 'Foro Sol',
       size: {
-        col: 2,
+        col: 1,
         row: 1
       }
     },
@@ -182,7 +191,7 @@ export function HobbiesComponent() {
       place: 'Foro Sol',
       size: {
         col: 1,
-        row: 1
+        row: 2
       }
     },
     {
@@ -190,8 +199,8 @@ export function HobbiesComponent() {
       year: 2021,
       place: 'Puerto Vallarta',
       size: {
-        col: 2,
-        row: 2
+        col: 1,
+        row: 1
       }
     },
     {
@@ -199,8 +208,17 @@ export function HobbiesComponent() {
       year: 2018,
       place: 'Tattoo design',
       size: {
-        col: 2,
+        col: 1,
         row: 1
+      }
+    },
+    {
+      imgSrc: 'img/grid/img-29.jpg',
+      year: 2020,
+      place: 'Noodler',
+      size: {
+        col: 2,
+        row: 2
       }
     },
     {
@@ -231,27 +249,9 @@ export function HobbiesComponent() {
       }
     },
     {
-      imgSrc: 'img/grid/img-20.jpg',
-      year: 2022,
-      place: 'Guanajuato vineyard',
-      size: {
-        col: 1,
-        row: 1
-      }
-    },
-    {
       imgSrc: 'img/grid/img-22.jpg',
       year: 2022,
       place: 'Guanajuato',
-      size: {
-        col: 2,
-        row: 1
-      }
-    },
-    {
-      imgSrc: 'img/grid/img-29.jpg',
-      year: 2020,
-      place: 'Noodler',
       size: {
         col: 1,
         row: 1
